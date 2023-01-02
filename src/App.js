@@ -38,7 +38,6 @@ function App() {
       <div className="main">
         <input onChange={onChangeHandler} type="text" />
         <button>Search</button>
-        {/* <p>{text}</p> */}
         <ul className="list">
           {list.map((e, i) => {
             return <li key={i}>{e}</li>;
